@@ -14,7 +14,7 @@ const Work = (props) => {
   const deleteHandler = () => {
     console.log(`delete ${id}`);
     deleteWork(id);
-    navigate("/");
+    navigate("/works");
   };
   return (
     <tr key={id}>
