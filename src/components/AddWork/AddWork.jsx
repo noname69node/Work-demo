@@ -24,7 +24,6 @@ const AddWork = () => {
   }, [id]);
 
   const handleChanges = (e) => {
-    console.log(workData);
     setWorkData({
       ...workData,
       [e.target.name]: e.target.value,
